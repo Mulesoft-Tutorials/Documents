@@ -19,21 +19,11 @@
 ### Session - 2 [Design API]
 - - - -
 
-* Introduction
+* RAML Specification
 
-* Installation and configuration
+* REST API
 
-    * Create free account with Anypoint platform
-    * Anypoint studio installation for Windows
-    * Java environment variable setup
-    * Maven installation
-    * Github repo setup
-    
-* Anypoint platform overview
+* SOAP API
 
-   *  Design Center
-   *  Exchange
-   *  API Manager
-   *  Runtime Manager
    
    
