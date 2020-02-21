@@ -14,6 +14,16 @@ ESB as an infrastructure software service-oriented model works as a managed mess
 Due to the nature of ESB and it's central role of orchestrating all systems on the network, it causes the bus itself to be a single point of failure. Also, due to over-abstraction of the individual tools, performance can be reduced. But, you can reduce these disadvantages with efficient monitoring and exception handling. You can also reduce them by using multiple reliable cloud systems and connectors
 
 ### 3. Microservice Architecture
+
+Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are
+-Highly maintainable and testable
+-Loosely coupled
+-Independently deployable
+-Organized around business capabilities
+-Owned by a small team
+The microservice architecture enables the rapid, frequent and reliable delivery of large, complex applications. It also enables an organization to evolve its technology stack.
+
+
 ### 4. What is Mulesoft and Application Network
 ### 5. Anypoint studio installation and setup
 ### 6. Github and Maven installation
