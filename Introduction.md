@@ -16,13 +16,19 @@ Due to the nature of ESB and it's central role of orchestrating all systems on t
 ### 3. Microservice Architecture
 
 Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are
--Highly maintainable and testable
--Loosely coupled
--Independently deployable
--Organized around business capabilities
--Owned by a small team
+
+- Highly maintainable and testable
+- Loosely coupled
+- Independently deployable
+- Organized around business capabilities
+- Owned by a small team
+
 The microservice architecture enables the rapid, frequent and reliable delivery of large, complex applications. It also enables an organization to evolve its technology stack.
 
+In Microservice Architecture, each service is self-contained and implements a single business capability.
+
+Differences Between Traditional Architecture and Microservices
+Consider an E-commerce application as a use-case to understand the difference between both of them.
 
 ### 4. What is Mulesoft and Application Network
 ### 5. Anypoint studio installation and setup
