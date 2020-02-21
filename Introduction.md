@@ -61,6 +61,11 @@ The Experience APIs are the ones which should be exposed publicly for consumptio
 
 ### 5. Anypoint studio installation and setup
 
+  #### 5.1 Setting up account with Mulesoft
+  
+    1. Go to the site [Anypoint Platform](https://anypoint.mulesoft.com)
+    
+  
   #### Prerequisites ####
   
     - Ensure that you have the Java SE JDK 8 installed and configured.
