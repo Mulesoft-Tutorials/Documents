@@ -30,19 +30,19 @@ In Microservice Architecture, each service is self-contained and implements a si
 Differences Between Traditional Architecture and Microservices
 Consider an E-commerce application as a use-case to understand the difference between both of them.
 
-### 4. What is Mulesoft and Application Network
+### 4. What is Mulesoft and Application Led Connectivity
 
 API-led connectivity is a methodical way to connect data to applications through reusable and purposeful APIs. These APIs are developed to play a specific role – unlocking data from systems, composing data into processes, or delivering an experience
 
 The main purpose of API-led connectivity is to enable the integration flows to be reused by many parties and to be reused inside the integration platform. With the reusability of the already available logic (implemented in flows), the developers can evolve their logic in faster and safer ways, leading to a short time to market. APIs are created in layers and the best plus point as compared to E2E approach is that more components (flows) can be reused which makes easier to implement new systems and services.
 
-  #### System API ####
+   #### 4.1 System API ####
   
   This is the foundational layer of the three-layer architecture. These APIs can be defined for various domains of an organization, for example, ERP, key customer and billing systems, proprietary databases, etc. System APIs provide a means of accessing these underlying systems of records and exposing the data in canonical formats. A System API defines the contract RAML/WSDL to describe how to interact with the domain. For example, a System API for a customer domain can contain resources with methods like GET, POST, PUT, and DELETE, and the related schemas (XSD, JSON) and responses (200, 400, 500, etc).
   
   Basically, one can see that System APIs generally expose the sensitive information of an organization. They should not be exposed for public use
 
- #### Process API ####
+   #### 4.2 Process API ####
  
  Process layer APIs are responsible for shaping the data by orchestrating and choreographing various data by calling multiple System APIs. The orchestration involves the aggregating, splitting, and routing of data. The main purpose of Process APIs is to strictly encapsulate the business process independent of the source systems (System APIs) from which the data originates. 
 
@@ -50,7 +50,7 @@ For example, in a purchase order process, it needs to interact with various doma
 
 The Process APIs should be held privately inside the organization as per recommendation and should not be exposed for public use.
 
-#### Experience API ####
+   #### 4.3 Experience API ####
 
 At this point, we have all the sensitive information of an organization exposed privately by System APIs, and the Process APIs have already exposed the business process logic. The business process data is consumed across a broad range of clients/channels with different formats. For example, our Order Purchase API (Process Layer) has exposed data in the JSON format, but we have a client application that accepts only XML format, or vice versa. This simple transformation logic is implemented in the Experience Layer and the implementations are exposed as Experience APIs.
 
@@ -67,7 +67,7 @@ The Experience APIs are the ones which should be exposed publicly for consumptio
     2. Click on signup to create new account
     3. Provide all the details and click on Accept and create account
     
-   > This is trail account and is valid only for 7. You can create multiple user name with the same email address.
+   > This is trail account and is valid only for 7 days.
   
   #### Prerequisites for Installing Studio ####
   
