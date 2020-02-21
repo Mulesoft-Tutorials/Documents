@@ -63,10 +63,13 @@ The Experience APIs are the ones which should be exposed publicly for consumptio
 
   #### 5.1 Setting up account with Mulesoft
   
-    1. Go to the site [Anypoint Platform](https://anypoint.mulesoft.com)
+    1. Go to the site [Anypoint Platform] (https://anypoint.mulesoft.com)
+    2. Click on signup to create new account
+    3. Provide all the details and click on Accept and create account
     
+   > This is trail account and is valid only for 7. You can create multiple user name with the same email address.
   
-  #### Prerequisites ####
+  #### Prerequisites for Installing Studio ####
   
     - Ensure that you have the Java SE JDK 8 installed and configured.
     - Download the Anypoint Studio installation file from the Download Site
