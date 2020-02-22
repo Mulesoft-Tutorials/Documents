@@ -19,7 +19,7 @@
 ### Session - 2 [Design API]
 - - - -
 
-* RAML Specification
+* Writing API Specification using RAML
 
 * REST API
 
@@ -31,6 +31,13 @@
 * Build directly in Anypoint Studio
 
 * Build using RAML
+
+### Session - 4 [Dataweave]
+- - - -
+
+### Session - 5 [Debugging]
+- - - -
+
 
 
    
