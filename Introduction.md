@@ -9,6 +9,8 @@ Enterprise application integration (**EAI**) is the use of technologies and serv
 An ESB's primary function is to provide the connections between communicating applications - acting much like a router to control the data. It is commonly used in enterprise application integration (EAI) or service-oriented architecture (SOA) principles. The interaction and communication between components are across the bus, which has a similar function as a physical computer bus to handle data transfer or message exchange between services without writing any actual code.
 ESB as an infrastructure software service-oriented model works as a managed message system that provides routing, data transformation, translation upon a client's request and event-interpretation. It is often needed to transform messages into a format that the application can interpret. ESB is also used to change data content or execute services via a rule engine.
 
+![EAI](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/EAI.png)
+
 ### 2. What are the drawback of existing integration model
 
 Due to the nature of ESB and it's central role of orchestrating all systems on the network, it causes the bus itself to be a single point of failure. Also, due to over-abstraction of the individual tools, performance can be reduced. But, you can reduce these disadvantages with efficient monitoring and exception handling. You can also reduce them by using multiple reliable cloud systems and connectors
