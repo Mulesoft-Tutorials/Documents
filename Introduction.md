@@ -15,6 +15,9 @@ ESB as an infrastructure software service-oriented model works as a managed mess
 
 Due to the nature of ESB and it's central role of orchestrating all systems on the network, it causes the bus itself to be a single point of failure. Also, due to over-abstraction of the individual tools, performance can be reduced. But, you can reduce these disadvantages with efficient monitoring and exception handling. You can also reduce them by using multiple reliable cloud systems and connectors
 
+
+![Drawbacks](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/Differences-Between-Monolithic-Architecture-And-Microservices-What-Is-Microservices-edureka-3.png)
+
 ### 3. Microservice Architecture
 
 Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are
@@ -32,11 +35,15 @@ In Microservice Architecture, each service is self-contained and implements a si
 Differences Between Traditional Architecture and Microservices
 Consider an E-commerce application as a use-case to understand the difference between both of them.
 
+![MA](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/Microservice_Architecture.png)
+
 ### 4. What is Mulesoft and Application Led Connectivity
 
 API-led connectivity is a methodical way to connect data to applications through reusable and purposeful APIs. These APIs are developed to play a specific role – unlocking data from systems, composing data into processes, or delivering an experience
 
 The main purpose of API-led connectivity is to enable the integration flows to be reused by many parties and to be reused inside the integration platform. With the reusability of the already available logic (implemented in flows), the developers can evolve their logic in faster and safer ways, leading to a short time to market. APIs are created in layers and the best plus point as compared to E2E approach is that more components (flows) can be reused which makes easier to implement new systems and services.
+
+![ALC](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/api-led-connectivity.png)
 
    #### 4.1 System API ####
   
