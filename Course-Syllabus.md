@@ -28,17 +28,26 @@
 ### Session - 3 [Build-API](https://github.com/Mulesoft-Tutorials/Documents/blob/master/Building-API.md)
 - - - -
 
-* Build directly in Anypoint Studio
+* Build API directly in Anypoint Studio
 
-* Build using RAML
+* Build API using RAML/Exchange
+
+* Flows/Sub-Flows
 
 ### Session - 4 [Dataweave]
 - - - -
 
+
 ### Session - 5 [Debugging]
 - - - -
 
+### Session - 6 [Error Handling]
+- - - -
 
+### Session - 7 [API Manager]
+- - - -
 
+### Session - 8 [Deployments]
+- - - -
    
    
