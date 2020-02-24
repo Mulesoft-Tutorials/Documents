@@ -9,14 +9,14 @@
     * Maven installation
     * Github repo setup
     
-* Anypoint platform overview
+* Anypoint platform [overview](https://github.com/Mulesoft-Tutorials/Documents/blob/master/Anypoint-Platform.md)
 
    *  Design Center
    *  Exchange
    *  API Manager
    *  Runtime Manager
    
-### Session - 2 [Design API]
+### Session - 2 [Design-API](https://github.com/Mulesoft-Tutorials/Documents/blob/master/Designing-API.md)
 - - - -
 
 * Writing API Specification using RAML
@@ -25,7 +25,7 @@
 
 * SOAP API
 
-### Session - 3 [Build API]
+### Session - 3 [Build-API](https://github.com/Mulesoft-Tutorials/Documents/blob/master/Building-API.md)
 - - - -
 
 * Build directly in Anypoint Studio
