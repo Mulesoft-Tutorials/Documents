@@ -1,5 +1,14 @@
 
+# Building API
 
+We can build API's using two approaches
+
+1. Build using API specification written in RAML and with the help of APIKit Router
+2. Build it directly using Anypoint Studio
+
+
+
+# Mule Message Structure
 ![MuleMessage](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/MuleEventandMsg.png) 
 
 
