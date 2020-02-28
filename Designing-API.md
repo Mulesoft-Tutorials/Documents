@@ -4,3 +4,7 @@
 - Documentation is auto-generated from RAML and displayed in API console
 - A mocking service can be used in API console to test an API and return example data specified in RAML
 - Make an API discoverable by adding it to your private exchange
+
+Please refer below link to know more about designing API spec with RAML
+
+[RAML](https://github.com/Mulesoft-Tutorials/RAML)
