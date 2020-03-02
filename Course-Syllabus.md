@@ -47,7 +47,7 @@
 ### Session - 7 [API Manager]
 - - - -
 
-### Session - 8 [Deployments]
+### Session - 8 [Deployments](https://github.com/Mulesoft-Tutorials/Documents/blob/master/Deployments.md)
 - - - -
    
    
