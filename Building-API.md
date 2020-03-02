@@ -12,6 +12,66 @@ We can build API's using two approaches
 ![MuleMessage](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/MuleEventandMsg.png) 
 
 
+# API Proxy
+
+A proxy is an application that provides a level of protection for your API. You don’t have to modify the API to guard against attacks on your web service. Mule Runtime hosts a Mule proxy application. There is a proxy type for each type of web service:
+
+- RAML/OAS Proxy
+
+- WSDL Proxy
+
+- HTTP Proxy
+
+- HTTPS Proxy
+
+API Manager automatically generates the proxy app when you configure the API as an endpoint with a proxy and includes an Autodiscovery element in the app. Mule locks the API until all policies have been applied. The client app (consumer) calls the proxy which forwards the call to the API. After you deploy the app, Mule Runtime calls API Manager using the client ID and secret to get the policies for the API.
+
+In most cases, the proxy you generate in API Manager is suitable for deployment. However, you can modify the proxy to log data to a file or send data to a Splunk account with the Anypoint Splunk Connector, for example.
+
+You can import a proxy that you download from API Manager into Studio as a Mule Deployable Archive. You can then modify the proxy in Studio.
+
+# Creating Proxy Application
+
+After you have created API specification using RAML and published to exchange, you can create the proxy application using API Manager
+
+Please follow below steps to create proxy application
+
+1. Login to anypoint.mulesoft.com and select the API Manager
+
+![]()
+
+2. Select the environment accordingly
+
+![]()
+
+3. Click on Manage API and select **Manage API from Exchange**
+
+![]()
+
+4. Provide the following fields according based on the API type
+
+![]()
+
+  API Name : Name of the API published to exchange
+  Asset Type : RAML/OAS (Auto populated)
+  API Version: 1.0 (Auto populated)
+  Asset Version : 1.0.0 (Auto populated)
+  Managing Type : cloudhub
+  Proxy deployment target : cloudhub
+  Mule version : select this option for mule 4
+  Implementaiton URI : URL of the service which need to be prpxied
+  
+  
+  click on save.
+
+5. Go to the deployment configurations section
+
+![]()
+
+  select the the runtime version
+  provide the proxy application name to be deployed to runtime
+
+
 ## What Is a Flow?
 
 A flow is a connected collection of Mule components.
