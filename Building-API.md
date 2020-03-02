@@ -38,19 +38,19 @@ Please follow below steps to create proxy application
 
 1. Login to anypoint.mulesoft.com and select the API Manager
 
-![]()
+![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/proxy-step1.PNG)
 
 2. Select the environment accordingly
 
-![]()
+![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/proxy-step2.PNG)
 
 3. Click on Manage API and select **Manage API from Exchange**
 
-![]()
+![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/proxy-step3.PNG)
 
 4. Provide the following fields according based on the API type
 
-![]()
+![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/proxy-step4.PNG)
 
   API Name : Name of the API published to exchange
   Asset Type : RAML/OAS (Auto populated)
@@ -66,7 +66,7 @@ Please follow below steps to create proxy application
 
 5. Go to the deployment configurations section
 
-![]()
+![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/proxy-step5.PNG)
 
   select the the runtime version
   provide the proxy application name to be deployed to runtime
