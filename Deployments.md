@@ -15,7 +15,7 @@ We can deploy applicatio into cloudhub using below options
 2. Using Runtime Manager
 2. Using CICD process with the help of Mule Maven Plugin
 
-## 1.1 Directly from Studio
+### 1.1 Directly from Studio
 
 1. Right click on the project root and select Anypoint Platform -> Deploy to Cloudhub
 
@@ -36,7 +36,7 @@ We can deploy applicatio into cloudhub using below options
 
 6. Once the application gets deployed, verify the logs to see for any start up errors during deployment
 
-## 1.2 Using Runtime Manager
+### 1.2 Using Runtime Manager
 
 1. Login to Anypoint.Mulesoft.com and select Runtime Manager
 
@@ -51,7 +51,7 @@ We can deploy applicatio into cloudhub using below options
 
 4.  Once the application gets deployed, verify the logs to see for any start up errors during deployment
 
-## 1.3 Using Mule Maven Plugin
+### 1.3 Using Mule Maven Plugin
 
 In addition to using Anypoint Studio, Anypoint Runtime Manager to deploy applications to CloudHub, you can also deploy, redeploy, or undeploy applications by using the Mule Maven plugin. To do so, you must meet certain prerequisites, and configure your CloudHub deployment strategy in your project’s pom.xml file.
 
@@ -82,3 +82,28 @@ Inside the plugin element in your project’s pom.xml file, configure your Cloud
 ```
 Please refer below link for more information about cloudhub deployments
 [Cloudhub](https://docs.mulesoft.com/mule-runtime/4.1/deploy-to-cloudhub)
+
+## 2. On-Premises Deployment Model
+
+Mule application deployment consists of two main aspects:
+
+ - The Mule runtime engine instance
+
+- The Mule applications deployed to that Mule instance
+
+When you deploy applications to CloudHub or to Anypoint Runtime Fabric, these services take care of the Mule runtime engine instances needed to run applications.
+
+When you deploy applications on-premises, you are responsible for the installation and configuration of the Mule runtime engine instances that run your Mule applications. Because you have complete control of the on-premise instance (unlike with CloudHub or Runtime Fabric deployments), you must understand the characteristics specific to on-premises deployments
+
+Mule runtime engine unpacks all applications at runtime, removes the original .jar files inside the /apps directory, creates a new folder for each application, and names each folder with the same name as the application file (minus the .jar extension).
+
+To confirm successful deployment, verify the following:
+
+The status of the application in the console is DEPLOYED.
+
+An unpacked application folder exists in the /apps directory of your Mule instance: for example, for stockTrader.jar, $MULE_HOME/apps/stockTrader.
+
+An anchor file exists for a running app: for example, $MULE_HOME/apps/stockTrader-anchor.txt.
+
+If you want to store your applications in a different location, you can store them on Unix-based systems by creating a symlink to your application directory from $MULE_HOME/apps.
+
