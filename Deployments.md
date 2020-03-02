@@ -50,3 +50,35 @@ We can deploy applicatio into cloudhub using below options
 ![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/Deploy-Step6.png)
 
 4.  Once the application gets deployed, verify the logs to see for any start up errors during deployment
+
+## 1.3 Using Mule Maven Plugin
+
+In addition to using Anypoint Studio, Anypoint Runtime Manager to deploy applications to CloudHub, you can also deploy, redeploy, or undeploy applications by using the Mule Maven plugin. To do so, you must meet certain prerequisites, and configure your CloudHub deployment strategy in your project’s pom.xml file.
+
+Configure the CloudHub deployment strategy in your project’s pom.xml file so you can deploy, redeploy and undeploy your Mule application using the Mule Maven plugin.
+
+Inside the plugin element in your project’s pom.xml file, configure your CloudHub deployment, replacing the placeholder values with your CloudHub information
+
+```
+<plugin>
+  <groupId>org.mule.tools.maven</groupId>
+  <artifactId>mule-maven-plugin</artifactId>
+  <version>3.3.2</version>
+  <extensions>true</extensions>
+  <configuration>
+    <cloudHubDeployment>
+      <uri>https://anypoint.mulesoft.com</uri>
+      <muleVersion>${app.runtime}</muleVersion>
+      <username>${username}</username>
+      <password>${password}</password>
+      <applicationName>${cloudhub.application.name}</applicationName>
+      <environment>${environment}</environment>
+      <properties>
+        <key>value</key>
+      </properties>
+    </cloudHubDeployment>
+  </configuration>
+</plugin>
+```
+Please refer below link for more information about cloudhub deployments
+[Cloudhub](https://docs.mulesoft.com/mule-runtime/4.1/deploy-to-cloudhub)
