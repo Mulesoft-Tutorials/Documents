@@ -70,6 +70,14 @@ Please follow below steps to create proxy application
 
   select the the runtime version
   provide the proxy application name to be deployed to runtime
+  click on deploy to deploy your proxy application to cloudhub
+  
+  ![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/proxy-step6.PNG)
+  
+  
+
+## Applying Policies
+
 
 
 ## What Is a Flow?
