@@ -86,13 +86,25 @@ Below are the steps followed in API Manager for applying policies
 
 2. Select the application you want to apply policies
 
-!()[]
+![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/policy-step1.PNG)
 
 3. Click on policies to select appropriate policy from the list of various policies options available
-!()[]
-4. Select the policy in this case, we have select the basic authentication and provided the credentails
-!()[]
-5. Click on configure policy to apply it.
+
+![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/policy-step2.PNG)
+
+4. Click on Apply new policy
+
+![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/policy-step3.PNG)
+
+5. Select the policy in this case, we have selected the basic authentication.
+
+![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/policy-step4.PNG)
+
+6. Provide the informatiomns required for the policy
+
+![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/policy-step5.PNG)
+
+6. Click on configure policy to apply it.
 
 
 ## What Is a Flow?
