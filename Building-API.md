@@ -52,6 +52,7 @@ Please follow below steps to create proxy application
 
 ![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/proxy-step4.PNG)
 
+  ```
   API Name : Name of the API published to exchange
   Asset Type : RAML/OAS (Auto populated)
   API Version: 1.0 (Auto populated)
@@ -60,6 +61,7 @@ Please follow below steps to create proxy application
   Proxy deployment target : cloudhub
   Mule version : select this option for mule 4
   Implementaiton URI : URL of the service which need to be prpxied
+  ```
   
   
   click on save.
@@ -68,9 +70,9 @@ Please follow below steps to create proxy application
 
 ![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/proxy-step5.PNG)
 
-  select the the runtime version
-  provide the proxy application name to be deployed to runtime
-  click on deploy to deploy your proxy application to cloudhub
+  - select the the runtime version
+  - provide the proxy application name to be deployed to runtime
+  - click on deploy to deploy your proxy application to cloudhub
   
   ![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/proxy-step6.PNG)
   
