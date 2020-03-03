@@ -78,6 +78,21 @@ Please follow below steps to create proxy application
 
 ## Applying Policies
 
+We can apply various policies to an API proxy for securing and governance
+
+Below are the steps followed in API Manager for applying policies
+
+1. Login to [Anypoint-Platform](https://anypoint.mulesoft.com) and select API Manager
+
+2. Select the application you want to apply policies
+
+!()[]
+
+3. Click on policies to select appropriate policy from the list of various policies options available
+!()[]
+4. Select the policy in this case, we have select the basic authentication and provided the credentails
+!()[]
+5. Click on configure policy to apply it.
 
 
 ## What Is a Flow?
