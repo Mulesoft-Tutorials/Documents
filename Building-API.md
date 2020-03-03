@@ -10,6 +10,14 @@ We can build API's using two approaches
 
 # Mule Message Structure
 
+- Mule Message is the data that passes through flows in the app
+
+- Attributes is the metadata contained in the message header
+
+- Payload is the core info of the message
+
+- Variables is the metadata of the Mule event can be defined and referenced in the app processing event
+
 ![MuleMessage](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/MuleEventandMsg.png) 
 
 
