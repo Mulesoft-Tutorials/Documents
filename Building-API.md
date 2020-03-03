@@ -36,7 +36,7 @@ After you have created API specification using RAML and published to exchange, y
 
 Please follow below steps to create proxy application
 
-1. Login to anypoint.mulesoft.com and select the API Manager
+1. Login to [Anypoint-Platform](https://anypoint.mulesoft.com) and select the API Manager
 
 ![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/proxy-step1.PNG)
 
