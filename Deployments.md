@@ -83,6 +83,8 @@ Inside the plugin element in your project’s pom.xml file, configure your Cloud
 Please refer below link for more information about cloudhub deployments
 [Cloudhub](https://docs.mulesoft.com/mule-runtime/4.1/deploy-to-cloudhub)
 
+![](https://github.com/Mulesoft-Tutorials/Documents/blob/master/images/CICD.png)
+
 ## 2. On-Premises Deployment Model
 
 Mule application deployment consists of two main aspects:
